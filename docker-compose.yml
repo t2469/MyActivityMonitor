@@ -3,7 +3,9 @@ services:
     build:
       context: .
       dockerfile: ./backend/Dockerfile
-    container_name: be
+    container_name: back
     volumes:
       - ./backend/:/go/src/app
     tty: true
+    ports:
+      - "8080:8080"
