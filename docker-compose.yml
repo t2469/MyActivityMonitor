@@ -1,0 +1,9 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: ./backend/Dockerfile
+    container_name: be
+    volumes:
+      - ./backend/:/go/src/app
+    tty: true
