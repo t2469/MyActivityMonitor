@@ -1,5 +1,5 @@
 services:
-  app:
+  backend:
     build:
       context: .
       dockerfile: ./backend/Dockerfile
@@ -9,3 +9,13 @@ services:
     tty: true
     ports:
       - "8080:8080"
+  frontend:
+    build:
+      context: .
+      dockerfile: ./frontend/Dockerfile
+    container_name: front
+    volumes:
+      - ./frontend/:/home/node/app
+    tty: true
+    ports:
+      - "5173:5173"
