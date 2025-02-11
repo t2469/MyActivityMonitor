@@ -1,4 +1,4 @@
-.container {
+.game {
     max-width: 800px;
     margin: 0 auto;
     padding: 2rem;
@@ -30,8 +30,8 @@
     color: #888;
 }
 
-.tic-tac-toe-game {
-    margin-top: 2rem;
+.game-board {
+    margin-bottom: 2rem;
 }
 
 .status {
@@ -54,15 +54,18 @@
     font-weight: bold;
     line-height: 60px;
     text-align: center;
-    padding: 0;
     margin: 2px;
     cursor: pointer;
 }
 
-ol {
+.game-info {
     margin-top: 1rem;
+}
+
+.game-info ol {
+    margin: 0;
     padding-left: 0;
-    list-style-type: none;
+    list-style: none;
 }
 
 @keyframes App-logo-spin {
