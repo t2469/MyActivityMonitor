@@ -1,0 +1,75 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.initial-screen {
+    margin-bottom: 3rem;
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo {
+    height: 6em;
+    padding: 1rem;
+}
+
+.logo.react {
+    animation: App-logo-spin infinite 20s linear;
+}
+
+.card {
+    padding: 2rem;
+}
+
+.read-the-docs {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.tic-tac-toe-game {
+    margin-top: 2rem;
+}
+
+.status {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.board-row {
+    display: flex;
+    justify-content: center;
+}
+
+.square {
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    border: 1px solid #999;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 60px;
+    text-align: center;
+    padding: 0;
+    margin: 2px;
+    cursor: pointer;
+}
+
+ol {
+    margin-top: 1rem;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
